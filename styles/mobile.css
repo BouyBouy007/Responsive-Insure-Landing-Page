@@ -1,0 +1,204 @@
+@media(max-width: 375px) {
+  .top-container {
+    padding: 15px 25px;
+  }
+
+  .insure-logo {
+    width: 70%;
+  }
+
+  .mobile-design {
+    display: flex;
+  }
+
+  .hamburger-button {
+    background-color: transparent;
+    background-image: url(../images/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    border: none;
+    padding: 20px;
+  }
+
+  .header-nav {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    top: 70px;
+    left: 0;
+    right: 0;
+    gap: 20px;
+    height: 460px;
+    padding-top: 50px;
+    z-index: 100;
+    background-color: var(--dark-violet);
+    background-image: url(../images/bg-pattern-mobile-nav.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  
+  .header-nav div {
+    color: var(--very-light-gray);
+    margin-right: unset;
+  }
+
+  .top-right-desktop-button {
+    margin: unset;
+    padding: 10px 70px;
+    border-color: var(--very-light-gray);
+    color: var(--very-light-gray);
+  }
+
+  .header-nav div:hover {
+    color: unset;
+  }
+  
+  .top-right-desktop-button:hover {
+    background-color: unset;
+    border-color: unset;
+    color: unset;
+  }
+
+  .display-mobile-nav {
+    background-image: url(../images/icon-close.svg);
+  }
+
+  .introduction-container {
+    text-align: center;
+    padding: 120px 20px 60px;
+    background-image: url(../images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  
+  .line-decoration {
+    display: none;
+  }
+  
+  h1 {
+    font-size: 44px;
+    line-height: 40px;
+    width: 100%;
+    padding: unset;
+    margin: unset;
+  }
+  
+  .introduction-container p {
+    line-height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: unset;
+  }
+  
+  .introduction-container button {
+    font-size: 10px;
+    padding: 10px 26px;
+    margin: unset;
+  }
+  
+  .mobile-intro-image {
+    display: block;
+    width: 100%;
+  }
+
+  .intro-image,
+  .intro-left-background,
+  .intro-right-background {
+    display: none;
+  }
+
+  .mobile-intro-left-background {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .middle-container {
+    margin: unset;
+    text-align: center;
+  }
+
+  .mobile-intro-right-background {
+    display: flex;
+    position: absolute;
+    top: -150px;
+    right: 0;
+  }
+
+  .middle-container-line-decoration {
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+  }
+  
+  h2 {
+    font-size: 44px;
+    margin-bottom: 55px;
+  }
+  
+  .details-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .details-title {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+  
+  .details-description {
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 20px;
+  }
+  
+  .find-out-container {
+    justify-content: unset;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 20px;
+    margin: 50px 20px;
+    background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  
+  h3 {
+    font-size: 44px;
+    width: 100%;
+  }
+  
+  .find-out-container img {
+    display: none;
+  }
+  
+  .find-out-container button {
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px 20px;
+
+  }
+
+  .bottom-container {
+    padding: 70px 20px;
+    background-image: url(../images/bg-pattern-footer-mobile.svg);
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .links-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .links-container div {
+    margin: unset;
+  }
+}
